@@ -1,7 +1,7 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render, resolve_url
 from django.shortcuts import redirect
-from .models import Aulas, Cursos, Comentarios
+from .models import Aulas, Cursos, Comentarios, NotasAulas
 import json
 
 
